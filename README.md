@@ -6,4 +6,4 @@ Status do Projeto: Adicionando funcionalidade de botão de excluir contatos
 
 Tecnologias Utilizadas: HTML, CSS e JavaScript
 
-Visualize o site finalizado em: https://joaosportugal.github.io/project_05_mediaCalculator/
+Visualize o site finalizado em: https://joaosportugal.github.io/project_06_contactBook/
