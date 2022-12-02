@@ -5,15 +5,13 @@ const errorMessage = document.getElementById('errormessage');
 const userName = document.getElementById('userName');
 let allNames = [];
 let allNumbers = [];
-
-let newContact = ''
+let newContact = '';
 
 userName.innerHTML = prompt('Qual seu nome?');
 
 submitButton.addEventListener('click', function(e){
     e.preventDefault()
     addContact(contactName, contactNumber);
-
 
 })
 
@@ -25,17 +23,19 @@ function addContact(contactName, contactNumber) {
     } else {
         errorMessage.style.display = 'none';
 
-        newContact = `<tr>
-                <td>${contactName.value}</td>
-                <td>${contactNumber.value}</td>
-            </tr>`
-    
-    const contactList = document.getElementById('contactList');
-    contactList.innerHTML += newContact;
-    
+    addNewContactToTable(newContact);
     addToAllNamesArr(allNames);
     addToAllNumbersArr(allNumbers);
     }
+}
+
+function addNewContactToTable(newContact) {
+    newContact = `<tr>
+                <td>${contactName.value}</td>
+                <td>${contactNumber.value}</td>
+            </tr>`
+    const contactList = document.getElementById('contactList');
+    contactList.innerHTML += newContact;
 }
 
 function addToAllNamesArr(allNames) {
