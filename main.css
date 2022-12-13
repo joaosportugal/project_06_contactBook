@@ -132,8 +132,16 @@ table tbody td {
     padding: .5em;
     background-color: var(--amarelo-escuro);
     border-radius: .5em;
+    
 }
 
 #contactList {
     text-transform: uppercase;
 }
+
+/* .newContact {
+    background-color: var(--amarelo-escuro);
+    color: var(--verde-escuro);
+} */
+
+

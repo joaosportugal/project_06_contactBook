@@ -15,16 +15,16 @@
         
         <header>
             <h1>Agenda de Contatos</h1>
-            <p id="userName">User Name</p>
+            <p id="userName">Bem-vindo(a)</p>
         </header>
 
         <form action="">
-            <input id="contactName" type="text" required placeholder="Nome do Contato">
-            <input id="contactNumber" type="number" required placeholder="Telefone">
+            <input id="name" type="text" required placeholder="Nome do Contato">
+            <input id="number" type="number" required placeholder="Telefone">
             <button id="submitButton" type="submit">Adicionar</button>
         </form>
         
-        <p id="errormessage"></p>
+        <p id="errormessage" class="efeito-grow"></p>
 
         <table cellspacing="0">
             <thead>
@@ -34,7 +34,7 @@
                 </tr>
             </thead>
             
-            <tbody id="contactList">
+            <tbody id="bodyTable">
             </tbody>
         </table>
     </div>
