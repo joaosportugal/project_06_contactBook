@@ -116,8 +116,9 @@ table thead tr {
 }
 
 table tbody td {
-    padding-top: .3em;
+    padding: .3em 1em;
     color: #fff;
+    
 }
 
 #errormessage {
@@ -139,9 +140,20 @@ table tbody td {
     text-transform: uppercase;
 }
 
-/* .newContact {
+.lastAddedContact {
     background-color: var(--amarelo-escuro);
-    color: var(--verde-escuro);
-} */
+    padding: 1em;
+    border-radius: 1em;
+    
+}
+
+.lastAddedContact td {
+    color: var(--verde-claro);
+    padding: .3em;
+}
+
+.existingContact {
+    color: red;
+}
 
 

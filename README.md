@@ -17,7 +17,7 @@ Implementações:
 
 2 DONE!) Ao adicionar um novo contato, limpar os inputs;
 
-3) Chamativo de mudança de background-color e growth para o novo contato que acabara de ser adicionado;
+3 DONE!) Chamativo de mudança de background-color e growth para o novo contato que acabara de ser adicionado;
 
 4) Ao dar o alerta mostrando que já existe o contato ou o número, destacar o nome ou o telefone já existente dentro da lista
 

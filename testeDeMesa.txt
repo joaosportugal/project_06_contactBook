@@ -1,0 +1,11 @@
+Função printContact()
+
+Minha função printContact recebe como parâmetro os arrays names e numbers
+
+É criada uma constante que se refere ao tbody do html
+
+Adiciona-se a esse tbody as tags que escrevem uma nova linha na tabela com duas colunas
+uma recebendo o nome do contato e a outra recebendo o número do contato.
+
+O nome e o número é recebido como o último item de cada array porque eles acabaram de ser adicionados
+
